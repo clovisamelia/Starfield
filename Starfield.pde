@@ -11,6 +11,7 @@ void draw()
 {
 	ellipse(myX,myY,50,50);
 }
+
 class NormalParticle
 {
 	double myX,myY, mySpeed, myAngle;
@@ -31,7 +32,7 @@ class NormalParticle
 	}
 	void show(){
 
-		fill(color);
+		fill(myColor);
 
 	}
 }
